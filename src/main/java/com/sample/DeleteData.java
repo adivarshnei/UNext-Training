@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletResponse;
 
 public class DeleteData extends HttpServlet {
   @Override
-  protected void doPost(HttpServletRequest req, HttpServletResponse resp)
       throws ServletException, IOException {
     resp.setContentType("text/html;charset=UTF-8");
     PrintWriter out = resp.getWriter();
